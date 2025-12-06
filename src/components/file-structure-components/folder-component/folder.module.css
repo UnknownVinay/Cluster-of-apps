@@ -1,0 +1,39 @@
+.container {
+  margin-top: 10px;
+}
+
+.container__folder {
+  margin-top: 6px;
+  background-color: rgb(233, 233, 233);
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.container__folder > span {
+  margin: 0 5px 2px 0;
+}
+.container__folder--items {
+  padding-left: 25px;
+  margin: 2px;
+}
+
+.container__file {
+  display: flex;
+  width: 300px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.container__folder > div > button {
+  font-size: 13px;
+  background-color: whitesmoke;
+  border: 1px solid rgb(195, 193, 193);
+  margin: 2px;
+  border-radius: 2px;
+  padding: 2px 10px;
+  cursor: pointer;
+}

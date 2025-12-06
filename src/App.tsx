@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
-import FileStructure from "./pages/file-structure";
+import FileStructure from "./pages/file-structure/file-structure-component";
 function App() {
   return (
     <>
